@@ -1,0 +1,107 @@
+﻿@{
+
+
+    Layout = "_Layout";
+
+    ViewData["Title"] = "Liste des Livres";
+}
+
+<style>
+    .table-red-borders td {
+        color: white;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .table-container {
+        margin-left: 250px;
+        position: relative;
+        top: -650px;
+        overflow-y: hidden;
+        
+    }
+
+ 
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+        
+    }
+
+   
+</style>
+
+<div class="table-responsive table-container ">
+    <h1 class="page-title">Liste des Livres</h1>
+    <table class="table table-bordered table-striped red-border">
+        <thead>
+            <tr style="color:white;">
+                <th>Id</th>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Résumé</th>
+                <th>Statut</th>
+                <th>Actions</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var livre in Model)
+            {
+                <tr>
+                    <td>@livre.Id</td>
+                    <td>@livre.Titre</td>
+                    <td>@livre.Auteur</td>
+                    <td>@livre.Resume</td>
+                    <td>@(livre.EstEmprunte ? "Emprunté" : "Disponible")</td>
+                    <td>
+                        @if (!livre.EstEmprunte)
+                        {
+                            <form method="get" asp-controller="Emprunt" asp-action="CreateEmprunt">
+                                <input type="hidden" name="livreId" value="@livre.Id" />
+                                <button type="submit" style="background-color: red; border-color: white; color: black; font-weight: bold;border-radius: 5px; padding: 6px 18px;" class="btn btn-success">Emprunter</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <p>Livre déjà emprunté</p>
+                            <a href="@Url.Action("RestituerLivre", new { id = livre.Id })" style="display: inline-block; background-color: red; border: 2px solid white; color: black;border-radius: 5px; padding: 6px 20px;  font-weight: bold;">Restituer</a>
+                        }
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(livre.ImagePath))
+                        {
+                            <img src="@livre.ImagePath" alt="Livre Image" style="max-width: 100px; max-height: 100px;" />
+                        }
+                        else
+                        {
+                            <p>No image available</p>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <button class="btn btn-primary mt-3" id="btnAddLivre" data-url="@Url.Action("CreateLivre", "Livre")">Ajouter un livre</button>
+
+</div>
+
+
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnAddLivre").click(function () {
+                var url = $(this).data("url");
+                window.location.href = url;
+            });
+        });
+    </script>
+}

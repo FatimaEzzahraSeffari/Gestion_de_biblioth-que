@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GestionBibliotheque_TP
+build_property.RootNamespace = GestionBibliotheque_TP
+build_property.ProjectDir = C:\Users\hp\source\repos\GestionBibliotheque_TP\GestionBibliotheque_TP\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hp\source\repos\GestionBibliotheque_TP\GestionBibliotheque_TP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Abonne/CreateAbonne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm5lXENyZWF0ZUFib25uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Abonne/ListeAbonnes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm5lXExpc3RlQWJvbm5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Abonne/LivresEmpruntes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvbm5lXExpdnJlc0VtcHJ1bnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Emprunt/CreateEmprunt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudFxDcmVhdGVFbXBydW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Emprunt/ListeEmprunt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcnVudFxMaXN0ZUVtcHJ1bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Livre/CreateLivre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVcQ3JlYXRlTGl2cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Livre/ListeLivres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVcTGlzdGVMaXZyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Livre/RestituerLivre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVcUmVzdGl0dWVyTGl2cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/source/repos/GestionBibliotheque_TP/GestionBibliotheque_TP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3xrymkj9fm

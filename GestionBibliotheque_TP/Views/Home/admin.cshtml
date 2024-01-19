@@ -1,0 +1,135 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gestion_Bebliotheque_Dashboard</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid position-relative d-flex p-0">
+
+            <!-- Sidebar Start -->
+            <div class="sidebar pe-4 pb-3">
+                <nav class="navbar bg-secondary navbar-dark">
+                    <a href="/ " class="navbar-brand mx-4 mb-3">
+                        <h3 class="text-primary"><i class="fa fa-home me-2"></i>Bebliotheque<br />Dashboard</h3>
+                    </a>
+
+                    <div class="navbar-nav w-100">
+                        <div class="nav-item dropdown" style="margin-left: 10px;">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"><i class="fas fa-book-open me-2"></i>Livre</a>
+
+                            <div class="dropdown-menu bg-transparent border-0">
+                                <a asp-controller="Livre" asp-action="ListeLivres" class="dropdown-item"><i class="fas fa-list"></i>&nbsp;Liste Livre</a>
+                                <a asp-controller="Livre" asp-action="CreateLivre" class="dropdown-item"><i class="fas fa-plus me-1"></i>Ajouter Livre</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="nav-item dropdown" style="margin-top: 20px;margin-left: 10px;">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"><i class="fas fa-user-plus"></i>Abonnes</a>
+                            <div class="dropdown-menu bg-transparent border-0">
+                                <a asp-controller="Abonne" asp-action="ListeAbonnes" class="dropdown-item"><i class="fas fa-list"></i>&nbsp;Liste Abonne </a>
+                                <a asp-controller="Abonne" asp-action="CreateAbonne" class="dropdown-item"> <i class="fas fa-plus me-1"></i>Ajouter Abonne </a>
+
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown" style="margin-top: 20px;margin-left: 10px;">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown"><i class="fa fa-book me-2"></i>Emprunt</a>
+                            <div class="dropdown-menu bg-transparent border-0">
+                                <a asp-controller="Emprunt" asp-action="ListeEmprunt" class="dropdown-item"><i class="fas fa-list"></i>&nbsp;Liste Emprunt </a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Sidebar End -->
+        <!-- Content Start -->
+        <div class="content d-flex flex-column mt-5">
+            <div class="text-center">
+
+                @if (ViewContext.HttpContext.Request.Path == "/")
+                {
+                    <h1 style="color: red; ">Découvrez notre bibliothèque numérique</h1>
+                    <p style="color: gray;font-size:25px;">Lisez où que vous soyez, à tout moment. Profitez de la flexibilité de notre plateforme en ligne. Annulez ou renouvelez vos emprunts numériques facilement.</p>
+                    <img src="https://img.freepik.com/photos-gratuite/arrangement-livres-tasse-fond-sombre_23-2148898275.jpg?w=360&t=st=1701695201~exp=1701695801~hmac=cc5a8783e227b28268363462d9ce30ddcc8704eb79d6bfb67509e36f34978c9b" alt="Your Image" style="width: 800px; height: 500px; " />
+                }
+            </div>
+
+        </div>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid pt-3 px-4" style="margin-left: 230px;width: 84%;">
+        <div class="bg-secondary rounded-top p-2">
+            <div class="row">
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    &copy; <a href="#">Gestion_Bebliotheque</a>, All Right Reserved.
+                </div>
+                <div class="col-12 col-sm-6 text-center text-sm-end" style="margin-left: 400px;">
+                    Designed By <a href="https://github.com/FatimaEzzahraSeffari?tab=repositories">FatimaEzzahraSeffari</a>
+                    <br>Distributed By: <a href="https://github.com/FatimaEzzahraSeffari?tab=repositories" target="_blank">Gestion_Bebliotheque</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(document).ready(function () {
+            $('.nav-link').on('click', function () {
+                // Supprimer la classe 'active' de tous les liens
+                $('.nav-link').removeClass('active');
+
+                // Ajouter la classe 'active' au lien cliqué
+                $(this).addClass('active');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@model GestionBibliotheque_TP.Models.Livre
+
+<div class="restituer-form">
+
+
+    <h2>Restituer le livre</h2>
+
+    <p>Êtes-vous sûr de vouloir restituer le livre "@Model.Titre" ?</p>
+
+    <form asp-action="RestituerLivreConfirmation" asp-route-livreId="@Model.Id" method="post">
+        <button type="submit" class="btn btn-primary">Restituer</button>
+        <a asp-action="home" class="btn btn-secondary">Annuler</a>
+    </form>
+</div>
+<style>
+    .restituer-form {
+        margin-left: 200px;
+        margin-top: -650px;
+    }
+
+</style>

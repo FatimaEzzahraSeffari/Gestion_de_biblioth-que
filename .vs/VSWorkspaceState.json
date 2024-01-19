@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GestionBibliotheque_TP",
+    "\\GestionBibliotheque_TP\\Controllers",
+    "\\GestionBibliotheque_TP\\Controllers\\Bibliotheque",
+    "\\GestionBibliotheque_TP\\Migrations",
+    "\\GestionBibliotheque_TP\\Models",
+    "\\GestionBibliotheque_TP\\Views",
+    "\\GestionBibliotheque_TP\\Views\\Abonne"
+  ],
+  "SelectedNode": "\\GestionBibliotheque_TP\\GestionBibliotheque_TP.csproj",
+  "PreviewInSolutionExplorer": false
+}

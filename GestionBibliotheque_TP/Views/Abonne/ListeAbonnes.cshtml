@@ -1,0 +1,91 @@
+﻿@{
+
+
+    Layout = "_Layout";
+    }
+
+@model IEnumerable<Abonne>
+
+
+<div class="table-responsive table-container ">
+    <h1 class="page-title">Liste des Abonnes</h1>
+    <table class="table table-bordered table-striped red-border">
+        <thead>
+            <tr style="color:white;">
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var abonne in Model)
+            {
+                <tr>
+                    <td>@abonne.Id</td>
+                    <td>@abonne.Nom</td>
+                    <td>@abonne.Prenom</td>
+                    <td>
+                        <a href="@Url.Action("LivresEmpruntes", new { abonneId = abonne.Id })" style="background-color: blue; border-color: blue; width: 45%; border-radius: 10px; font-weight: bold; height: 50px; color: white; text-decoration: none; display: inline-block; text-align: center; line-height: 50px; margin-right: 5px;">Livres Empruntés</a>
+                        <a href="@Url.Action("EditAbonne", new { abonneId = abonne.Id })" style="background-color: green; border-color: green; width: 20%; border-radius: 10px; font-weight: bold; height: 50px; color: white; text-decoration: none; display: inline-block; text-align: center; line-height: 50px; margin-right: 5px;">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@abonne.Id" style="background-color: red; border-color: red; width: 20%; border-radius: 10px; font-weight: bold; height: 50px; color: white; text-decoration: none; display: inline-block; text-align: center; line-height: 50px; margin-right: 5px;">Delete</a>
+                    </td>
+                </tr>
+            }
+           
+        </tbody>
+    </table>
+    <button class="btn btn-primary mt-3" id="btnAddLivre" data-url="@Url.Action("CreateAbonne", "Abonne")">Ajouter un abonne</button>
+
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnAddLivre").click(function () {
+                var url = $(this).data("url");
+                window.location.href = url;
+            });
+        });
+       
+    </script>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .table-red-borders td {
+        color: white;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .table-container {
+        margin-left: 250px;
+        position: relative;
+        top: -650px;
+        overflow-y: auto;
+    }
+
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+</style>

@@ -1,0 +1,69 @@
+﻿@model GestionBibliotheque_TP.Models.Emprunt
+
+<div class="container">
+    <div id="formDiv" class="form-container">
+        <!-- Formulaire pour modifier un emprunt -->
+        <form id="editForm" asp-controller="Emprunt" asp-action="EditEmprunt" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <h1 class="page-title">Modifier l'Emprunt</h1>
+            <!-- Ajout d'un champ caché pour LivreId -->
+            <input type="hidden" asp-for="LivreId" />
+
+            <!-- Champs du formulaire -->
+            <div class="form-group" style="width: 400px;">
+
+                <label asp-for="AbonneId" class="control-label white-text">Abonné :</label>
+                @Html.DropDownListFor(model => model.AbonneId, ViewBag.Abonnes as IEnumerable<SelectListItem>, "Sélectionnez un abonné", new { @class = "form-control black-background red-border" })                <span asp-validation-for="AbonneId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group" style="width: 400px;">
+                <label asp-for="DateEmprunt" class="control-label white-text">Date d'emprunt :</label>
+                <input asp-for="DateEmprunt" class="form-control black-background red-border" type="date" />
+                <span asp-validation-for="DateEmprunt" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group" style="width: 400px;">
+                <label asp-for="DateRetour" class="control-label white-text">Date de retour :</label>
+                <input asp-for="DateRetour" class="form-control black-background red-border" type="date" />
+                <span asp-validation-for="DateRetour" class="text-danger"></span>
+            </div>
+
+            <br />
+            <button type="submit" class="btn btn-success" style="background-color: red; border-color: white;">Enregistrer</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .form-container {
+        margin-left: 300px;
+        position: relative;
+        top: -650px;
+        overflow-y: hidden;
+    }
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+    .black-background {
+        background-color: black !important;
+    }
+
+    .black-text {
+        color: white;
+    }
+</style>

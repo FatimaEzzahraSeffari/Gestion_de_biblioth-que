@@ -1,0 +1,869 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GestionBibliotheque_TP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GestionBibliotheque_TP.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\css\\bootstrap1.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap1.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\02eba04f-d904-410b-bd11-32424189e81d_lesMésirables.jpg",
+      "PackagePath": "staticwebassets\\img\\02eba04f-d904-410b-bd11-32424189e81d_lesMésirables.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\04281e67-e3e5-4067-96e7-bd831ab8a6f9_catalogue2.PNG",
+      "PackagePath": "staticwebassets\\img\\04281e67-e3e5-4067-96e7-bd831ab8a6f9_catalogue2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\07a2af49-7510-499e-851e-58a61e4a1953_sql.jpg",
+      "PackagePath": "staticwebassets\\img\\07a2af49-7510-499e-851e-58a61e4a1953_sql.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\0eae1675-2d9a-46a8-a918-db7bc86b8a3a_about2.jpg",
+      "PackagePath": "staticwebassets\\img\\0eae1675-2d9a-46a8-a918-db7bc86b8a3a_about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\20d12542-fae2-4fa7-86da-ff15718924f3_about.avif",
+      "PackagePath": "staticwebassets\\img\\20d12542-fae2-4fa7-86da-ff15718924f3_about.avif"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\2c8ac1b0-98a3-4f8a-916a-2d3c12b99ae7_abonne2.jpeg",
+      "PackagePath": "staticwebassets\\img\\2c8ac1b0-98a3-4f8a-916a-2d3c12b99ae7_abonne2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\2d3b8b36-fa9a-4b90-850b-c25688368200_do14.PNG",
+      "PackagePath": "staticwebassets\\img\\2d3b8b36-fa9a-4b90-850b-c25688368200_do14.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\332dca02-e1b1-44f5-b558-2533df5195c7_about2.jpg",
+      "PackagePath": "staticwebassets\\img\\332dca02-e1b1-44f5-b558-2533df5195c7_about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\369edc31-edcd-4788-abaa-8cd97b368dc0_admo.PNG",
+      "PackagePath": "staticwebassets\\img\\369edc31-edcd-4788-abaa-8cd97b368dc0_admo.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\40d7fb61-ac4f-429d-8a76-794cd340ed2d_logo3.png",
+      "PackagePath": "staticwebassets\\img\\40d7fb61-ac4f-429d-8a76-794cd340ed2d_logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\45262417-5ff9-4284-9d3f-46619507f176_Classe UML.png",
+      "PackagePath": "staticwebassets\\img\\45262417-5ff9-4284-9d3f-46619507f176_Classe UML.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\4c6d2f86-7f65-471f-b9a0-b76e4915a430_auxchamp.jpg",
+      "PackagePath": "staticwebassets\\img\\4c6d2f86-7f65-471f-b9a0-b76e4915a430_auxchamp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\50a5a862-cced-43c7-b3e2-af608e2296f0_cmd2.PNG",
+      "PackagePath": "staticwebassets\\img\\50a5a862-cced-43c7-b3e2-af608e2296f0_cmd2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\865976e7-0957-4eb5-945a-a55f14d984bd_catalogue2.PNG",
+      "PackagePath": "staticwebassets\\img\\865976e7-0957-4eb5-945a-a55f14d984bd_catalogue2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\867802aa-7fb5-442b-ad27-059d01ba35dc_art.jpg",
+      "PackagePath": "staticwebassets\\img\\867802aa-7fb5-442b-ad27-059d01ba35dc_art.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\9466c9e5-effd-413b-a187-b8b1272b36ec_about.avif",
+      "PackagePath": "staticwebassets\\img\\9466c9e5-effd-413b-a187-b8b1272b36ec_about.avif"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\a0e77385-a102-45b9-a933-0692f1ed3f1b_Diagramme d'activités(2).png",
+      "PackagePath": "staticwebassets\\img\\a0e77385-a102-45b9-a933-0692f1ed3f1b_Diagramme d'activités(2).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\a6220495-c71d-4eb3-9f89-798d0f3560cc_do1.PNG",
+      "PackagePath": "staticwebassets\\img\\a6220495-c71d-4eb3-9f89-798d0f3560cc_do1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\about.webp",
+      "PackagePath": "staticwebassets\\img\\about.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\about1.jpg",
+      "PackagePath": "staticwebassets\\img\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\about2.jpg",
+      "PackagePath": "staticwebassets\\img\\about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\b0826249-6e88-4de5-bbfe-6654f738d098_Diagramme d'activités(2).png",
+      "PackagePath": "staticwebassets\\img\\b0826249-6e88-4de5-bbfe-6654f738d098_Diagramme d'activités(2).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\b75a83a6-fbf2-4e2b-ab5b-8b1e8f2466d1_markart.jpg",
+      "PackagePath": "staticwebassets\\img\\b75a83a6-fbf2-4e2b-ab5b-8b1e8f2466d1_markart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\bbe686d5-00a1-4bed-b3f2-55ae733e3ca9_carousel-1.webp",
+      "PackagePath": "staticwebassets\\img\\bbe686d5-00a1-4bed-b3f2-55ae733e3ca9_carousel-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\beb.jpeg",
+      "PackagePath": "staticwebassets\\img\\beb.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\carousel-1.webp",
+      "PackagePath": "staticwebassets\\img\\carousel-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\carousel-4.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\catalogue2.PNG",
+      "PackagePath": "staticwebassets\\img\\catalogue2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\d9b9f783-87b4-49c1-9b40-c7ec56fa8147_sql.webp",
+      "PackagePath": "staticwebassets\\img\\d9b9f783-87b4-49c1-9b40-c7ec56fa8147_sql.webp"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\e3257bec-43c1-4020-b82a-2b5aeaccf049_lecture.PNG",
+      "PackagePath": "staticwebassets\\img\\e3257bec-43c1-4020-b82a-2b5aeaccf049_lecture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\ebaf8cfa-39ff-4319-86c8-260c7a477b12_emp.PNG",
+      "PackagePath": "staticwebassets\\img\\ebaf8cfa-39ff-4319-86c8-260c7a477b12_emp.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\f13cdacf-0484-45c9-ba14-47e0d43a96a9_carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\f13cdacf-0484-45c9-ba14-47e0d43a96a9_carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\f327486c-1cd6-49db-b49d-2f0cc2ff4253_abonne1.jpeg",
+      "PackagePath": "staticwebassets\\img\\f327486c-1cd6-49db-b49d-2f0cc2ff4253_abonne1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\f67f22e3-13c4-498e-b51c-6791e330fb73_Diagramme d'activités(5).png",
+      "PackagePath": "staticwebassets\\img\\f67f22e3-13c4-498e-b51c-6791e330fb73_Diagramme d'activités(5).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\lecture.PNG",
+      "PackagePath": "staticwebassets\\img\\lecture.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\membre.PNG",
+      "PackagePath": "staticwebassets\\img\\membre.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\portail.PNG",
+      "PackagePath": "staticwebassets\\img\\portail.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\retard.PNG",
+      "PackagePath": "staticwebassets\\img\\retard.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\img\\system.PNG",
+      "PackagePath": "staticwebassets\\img\\system.PNG"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\hp\\source\\repos\\GestionBibliotheque_TP\\GestionBibliotheque_TP\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GestionBibliotheque_TP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GestionBibliotheque_TP.props",
+      "PackagePath": "build\\GestionBibliotheque_TP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GestionBibliotheque_TP.props",
+      "PackagePath": "buildMultiTargeting\\GestionBibliotheque_TP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GestionBibliotheque_TP.props",
+      "PackagePath": "buildTransitive\\GestionBibliotheque_TP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model GestionBibliotheque_TP.Models.Comment
+
+<div class="container">
+    <div id="formDiv" class="form-container">
+        <!-- Formulaire pour ajouter un commentaire -->
+        <form id="createForm" asp-controller="Comment" asp-action="CreateComment" method="post" enctype="multipart/form-data">
+            <h1 class="page-title">Ajouter un Commentaire</h1>
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <!-- Champs du formulaire -->
+            <div class="form-group">
+                <label asp-for="Nom" class="control-label white-text">Nom complet :</label>
+                <input asp-for="Nom" class="form-control red-border white-text" required />
+                <span asp-validation-for="Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profession" class="control-label white-text">Profession :</label>
+                <input asp-for="Profession" class="form-control red-border white-text" required />
+                <span asp-validation-for="Profession" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommentText" class="control-label white-text">Commentaire :</label>
+                <textarea asp-for="CommentText" class="form-control red-border white-text" required></textarea>
+                <span asp-validation-for="CommentText" class="text-danger"></span>
+            </div>
+            <br /> 
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label white-text">Image :</label>
+                <input type="file" asp-for="ImageFile" class="form-control-file white-text" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+
+            <br />
+            <button type="submit" style="background-color: red; border-color: white;" class="btn btn-success">Enregistrer</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .form-container {
+        margin-left: 200px;
+        position: relative;
+        top: -650px;
+        overflow-y: hidden;
+    }
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+    .black-background {
+        background-color: black !important;
+    }
+
+    .black-text {
+        color: white;
+    }
+</style>

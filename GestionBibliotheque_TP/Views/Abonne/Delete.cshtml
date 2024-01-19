@@ -1,0 +1,61 @@
+﻿@model GestionBibliotheque_TP.Models.Abonne
+
+<div class="container">
+    <div id="deleteDiv" class="delete-container">
+        <h2 class="page-title">Confirmation de suppression</h2>
+
+        <p>Êtes-vous sûr de vouloir supprimer cet Abonné?</p>
+
+        <form asp-action="DeleteConfirmed" method="post">
+            <div>
+                <h4>Détails de l'Abonné</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Nom)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Nom)
+                    </dd>
+
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Prenom)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Prenom)
+                    </dd>
+                    
+                </dl>
+            </div>
+
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" style="background-color: red; border: 2px solid red; border-radius: 10px; font-weight: bold; color: white; height: 40px; width: 150px;">Supprimer</button>
+            <a asp-action="ListeAbonnes" style="background-color: grey; border: 2px solid grey; border-radius: 10px; font-weight: bold; color: white; height: 40px; width: 150px; display: inline-block; text-align: center; line-height: 40px; margin-top: 10px; text-decoration: none;">Annuler</a>
+
+        </form>
+    </div>
+</div>
+
+<style>
+    .delete-container {
+        margin-left: 300px;
+        position: relative;
+        top: -650px;
+        overflow-y: hidden;
+    }
+
+        /* Styles pour le formulaire de suppression */
+        .delete-container form {
+            background-color: black; /* Couleur de fond */
+            padding: 20px;
+            border: 1px solid #dee2e6; /* Bordure */
+            border-radius: 5px; /* Coins arrondis */
+            box-shadow: 0 4px 8px #dee2e6;
+         /* Ombre */
+        }
+
+        .delete-container h2, .delete-container p {
+            color: white; /* Couleur du texte */
+        }
+
+</style>

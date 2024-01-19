@@ -1,0 +1,82 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Liste des Emprunt";
+}
+
+<div class="table-responsive table-container ">
+    <h1 class="page-title">Liste des Emprunts</h1>
+    <table class="table table-bordered table-striped red-border">
+        <thead>
+            <tr style="color:white;">
+                <th>Id</th>
+                <th>Id-Abonne</th>
+                <th>Id-livre</th>
+                <th>Date-Emprunt</th>
+                <th>Date-Retour</th>
+                <th>Actions</th> 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.AbonneId</td>
+                    <td>@emp.LivreId</td>
+                    <td>@emp.DateEmprunt</td>
+                    <td>@emp.DateRetour</td>
+                    <td>
+                        <div style="display: flex;">
+                            <a href="@Url.Action("EditEmprunt", new { empruntId = emp.Id })" style="background-color: green; border-color: green; width:100%; border-radius: 10px; font-weight: bold; height: 50px; color: white; text-decoration: none; text-align: center; line-height: 50px; margin-right: 5px;">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@emp.Id" style="background-color: red; border: 2px solid red; width: 100%; border-radius: 10px; font-weight: bold; height: 50px; color: white; text-decoration: none; text-align: center; line-height: 50px; margin-right: 5px;">Delete</a>
+                        </div>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnAddemprunt").click(function () {
+                var url = $(this).data("url");
+                window.location.href = url;
+            });
+        });
+    </script>
+}
+
+<style>
+    .table-red-borders td {
+        color: white;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .table-container {
+        margin-left: 250px;
+        position: relative;
+        top: -650px;
+        overflow-y: auto;
+    }
+
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+</style>

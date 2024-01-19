@@ -1,0 +1,85 @@
+﻿@model GestionBibliotheque_TP.Models.Livre
+
+<div class="container">
+    <div id="formDiv" class="form-container">
+        <!-- Formulaire pour ajouter un livre -->
+        <form id="createForm" asp-controller="Livre" asp-action="CreateLivre" method="post" enctype="multipart/form-data">
+            <h1 class="page-title">Ajouter un Livre</h1>
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <!-- Champs du formulaire -->
+            <div class="form-group">
+                <label asp-for="Titre" class="control-label white-text">Titre :</label>
+                <input asp-for="Titre" class="form-control red-border white-text" required />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Auteur" class="control-label white-text">Auteur :</label>
+                <input asp-for="Auteur" class="form-control red-border white-text" required />
+                <span asp-validation-for="Auteur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Resume" class="control-label white-text">Résumé :</label>
+                <textarea asp-for="Resume" class="form-control red-border white-text" required></textarea>
+                <span asp-validation-for="Resume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstEmprunte" class="control-label white-text">Statut :</label>
+                <select asp-for="EstEmprunte" class="form-control red-border black-text black-background" required>
+                    <option value="True" class="black-text">Emprunté</option>
+                    <option value="False" class="black-text">Disponible</option>
+                </select>
+
+                <span asp-validation-for="EstEmprunte" class="text-danger"></span>
+            </div>
+            
+            <br />
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label white-text">Image:</label>
+                <input type="file" asp-for="ImageFile" class="form-control-file white-text" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+
+
+
+
+
+            <br />
+            <button type="submit" style="background-color: red; border-color: white;" class="btn btn-success">Enregistrer</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .form-container {
+        margin-left: 200px;
+        position: relative;
+        top: -650px;
+        overflow-y: hidden;
+    }
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .white-text {
+        color: white;
+    }
+
+    .black-background {
+        background-color: black !important;
+    }
+
+    .black-text {
+        color: white;
+    }
+
+   
+</style>
+

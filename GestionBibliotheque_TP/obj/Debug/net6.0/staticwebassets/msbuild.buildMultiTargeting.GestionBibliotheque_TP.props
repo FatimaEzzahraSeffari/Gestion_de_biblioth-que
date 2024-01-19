@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestionBibliotheque_TP.props" />
+</Project>

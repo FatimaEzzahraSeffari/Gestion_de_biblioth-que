@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Livre>
+
+<div class="table-responsive table-container ">
+    <h1 class="page-title">Liste des livres empruntés par:@ViewBag.AbonneNom</h1>
+
+
+    @if (Model == null)
+    {
+        <p>Aucune donnée n'a été retournée du contrôleur.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped red-border">
+            <thead>
+                <tr class="white-text">
+                    <th >Titre</th>
+                    <th>État</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var livre in Model)
+                {
+                    <tr>
+                        <td>@livre.Titre</td>
+                        <td>@(livre.EstEmprunte ? "Emprunté" : "Disponible")</td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .table-red-borders td {
+        color: white;
+    }
+
+    .red-border {
+        border: 2px solid red;
+    }
+
+    .table-container {
+        margin-left: 250px;
+        position: relative;
+        top: -650px;
+        overflow-y: auto;
+    }
+
+
+    .page-title {
+        text-align: center;
+        font-weight: bold;
+        margin-right: 120px;
+        margin-bottom: 40px;
+    }
+
+    .white-text {
+        color: white;
+    }
+</style>
